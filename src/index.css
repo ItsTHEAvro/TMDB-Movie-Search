@@ -168,4 +168,9 @@
 
 .movie_overview {
   @apply text-gray-400 mt-2;
+  overflow-wrap: break-word; /* Ensures long words/URLs break onto the next line */
+  word-wrap: break-word; /* For backward compatibility with older browsers */
+}
+footer {
+  @apply text-center text-gray-100 mb-10;
 }
